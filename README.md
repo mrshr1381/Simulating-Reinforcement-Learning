@@ -24,7 +24,9 @@ python -m venv .venv
 . .\.venv\Scripts\Activate.ps1
 pip install -U pip
 pip install -r requirements.txt
-python run.py --train_episodes 5000 --eval_episodes 200
+pip install jupyter
+jupyter notebook
+python simulation-code.ipynb 
 ```
 ## Repository Structure
 - **src/** — Core source code (training, evaluation, and utility modules)  
